@@ -79,9 +79,9 @@ export default function Home() {
      
 
       <div className="p-3 pt-48">
-        {/* <CardsAI /> */}
+        
         <Cards/>
-        {/* <SendData/> */}
+       
       </div>
     </>
   );
