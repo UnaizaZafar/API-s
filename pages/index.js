@@ -40,7 +40,7 @@ function trashOut() {
 }
 //by using async/await
 async function doChores() {
-  try{
+  try {
     const DogWalkResult = await walkDog();
     console.log(DogWalkResult);
     const cleanKitchenResult = await cleanKitchen();
@@ -48,11 +48,9 @@ async function doChores() {
     const trashOutResult = await trashOut();
     console.log(trashOutResult);
     console.log("You finished all the chores ");
-  }
-  catch(error){
+  } catch (error) {
     console.error(error);
   }
-  
 }
 //doChores();
 //by using promise
@@ -76,12 +74,8 @@ async function doChores() {
 export default function Home() {
   return (
     <>
-     
-
-      <div className="p-3 pt-48">
-        
-        <Cards/>
-       
+      <div className="p-3 ">
+        <Cards />
       </div>
     </>
   );

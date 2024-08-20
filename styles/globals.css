@@ -14,3 +14,13 @@ body {
     text-wrap: balance;
   }
 }
+h1{
+  font-weight: bold;
+  font-size: larger;
+}
+h2{
+  font-weight: bold;
+}
+p{
+  padding-bottom: 15px;
+}
